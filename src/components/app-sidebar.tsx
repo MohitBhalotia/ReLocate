@@ -23,12 +23,10 @@ import {
   ClerkLoaded,
   ClerkLoading,
   SignedIn,
-  SignOutButton,
   UserButton,
   useUser,
 } from "@clerk/nextjs";
 import Link from "next/link";
-import { Button } from "./ui/button";
 import { Loader2 } from "lucide-react";
 
 const data = {

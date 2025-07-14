@@ -31,7 +31,7 @@ type TableComponentProps = {
 
 type TooltipProps = {
   active?: boolean;
-  payload?: any;
+  payload?: Array<{ value: number }>;
   label?: string;
 };
 

@@ -179,7 +179,7 @@ export default function Home() {
               </h1>
               <p className="text-xl text-blue-100 mb-8 max-w-lg">
                 ReLocate leverages predictive analytics to optimize return
-                logistics, reducing costs and improving efficiency for Walmart's
+                logistics, reducing costs and improving efficiency for Walmart&apos;s
                 supply chain.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
@@ -400,8 +400,8 @@ export default function Home() {
             Ready to Transform Your Reverse Logistics?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join Walmart's network of efficient logistics operations with
-            ReLocate's AI-powered solution.
+            Join Walmart&apos;s network of efficient logistics operations with
+            ReLocate&apos;s AI-powered solution.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <button className="bg-white text-blue-700 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors">
