@@ -41,7 +41,7 @@ export default function Home() {
       icon: <FiRefreshCw className="w-8 h-8 text-blue-600" />,
       title: "Smart Local Drop Points",
       description:
-        "Efficiently redirect returns to nearby stores or fulfillment hubs.",
+        "Efficiently redirect returns to nearby stores or distribution centers based on item condition",
     },
     {
       icon: <FiBarChart2 className="w-8 h-8 text-blue-600" />,
@@ -228,12 +228,12 @@ export default function Home() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-shadow"
+                className="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-shadow flex flex-col items-center text-center justify-center"
               >
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center ">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-gray-900">
+                <h3 className="text-xl font-semibold mb-2 mt-6 text-gray-900">
                   {feature.title}
                 </h3>
                 <p className="text-gray-600">{feature.description}</p>
@@ -312,7 +312,9 @@ export default function Home() {
                   </div>
 
                   <div className="lg:block w-12 h-12 bg-white border-4 border-blue-200 rounded-full z-10 flex items-center justify-center">
-                    {item.icon}
+                    <div className="flex items-center h-full justify-center w-full">
+                      {item.icon}
+                    </div>
                   </div>
 
                   <div className="lg:w-1/2 lg:pl-12 lg:mt-0">
